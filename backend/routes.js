@@ -8,7 +8,7 @@ const login_name=process.env.YODLEE_LOGIN_NAME
 
 console.log("Yodlee Client ID:", process.env.YODLEE_CLIENT_ID);
 console.log("Yodlee Secret:", process.env.YODLEE_SECRET);
-console.log("Yodlee login name:",process.env.YODLEE_LOGIN_NAME)
+console.log("Yodlee login name:",process.env.YODLEE_LOGIN_NAME);
 
 
 router.post('/getAppToken', async (req,res)=>{
@@ -30,6 +30,7 @@ router.post('/getAppToken', async (req,res)=>{
     {
         console.log(client_id,"client")
         console.log(secret,"secret")
+        console.log(login_name,"login name")
         if (error.response) {
             console.error("Error Status:", error.response.status);
             console.error("Error Headers:", error.response.headers);
