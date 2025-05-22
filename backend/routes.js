@@ -74,7 +74,7 @@ router.post('/getUserToken',async (req,res)=>{
 
 router.post('/getFastLinkToken', async (req, res) => {
     try {
-        const URL = `https://sandbox.api.yodlee.com/ysl/providers?configName=aggregationAndVerification`;
+        const URL = `https://sandbox.api.yodlee.com/ysl/providers`;
         const response = await axios.get(URL,{
             headers:{
                 'Authorization': `Bearer ${accessToken}`,
