@@ -72,7 +72,7 @@ router.post('/getUserToken',async (req,res)=>{
     }
 })
 
-router.post('/getFastLinkToken', async (req, res) => {
+router.post('/getProviders', async (req, res) => {
     try {
         const URL = `https://sandbox.api.yodlee.com/ysl/providers`;
         const response = await axios.get(URL,{
