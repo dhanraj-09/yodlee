@@ -13,7 +13,7 @@ console.log("Yodlee login name:",process.env.YODLEE_LOGIN_NAME);
 let accessToken;
 let userToken;
 
-router.post('/getAppToken', async (req,res)=>{
+router.post('/GetAccessToken', async (req,res)=>{
     try
     {
         const formdata = new URLSearchParams();
@@ -72,7 +72,7 @@ router.post('/getUserToken',async (req,res)=>{
     }
 })
 
-router.post('/getProviders', async (req, res) => {
+router.get('/getProviders', async (req, res) => {
     try {
         const URL = `https://sandbox.api.yodlee.com/ysl/providers`;
         const response = await axios.get(URL,{
@@ -94,6 +94,49 @@ router.post('/getProviders', async (req, res) => {
         res.status(500).json({ error: 'Failed to get FastLink token' });
     }
 });
+
+
+
+    router.get('/accounts', async (req,res)=>{
+    try
+    {
+        const URL="https://sandbox.api.yodlee.com/ysl/accounts";
+
+        const AuthHeader = req.headers["authorization"];
+        console.log(AuthHeader," Auth header");
+        const AccessToken = "5VyB5SPFCwJEwiCJWeACeXxi2qIe";
+
+        const response = await axios.get(URL,{
+            headers : {
+                'Api-Version':'1.1',
+                'Authorization':`Bearer ${AccessToken}`
+            }
+        });
+
+        res.json(response.data)
+    }
+    catch (err)
+    {
+        if (err.response) {
+            console.error("Error Status:", err.response.status);
+            console.error("Error Headers:", err.response.headers);
+            console.error("Error Data:", err.response.data);
+        } else {
+            console.error("Generic Error:", err.message);
+        }
+        res.status(500).json({ error: 'Failed to get access accounts' });
+    }
+})
+
+
+
+
+
+
+
+
+
+
 
 
 module.exports=router;

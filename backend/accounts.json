@@ -1,0 +1,581 @@
+{
+  "account": [
+    {
+      "CONTAINER": "investment",
+      "providerAccountId": 11357668,
+      "accountName": "ROTH IRA - 4619",
+      "accountStatus": "ACTIVE",
+      "accountNumber": "xxxx4619",
+      "aggregationSource": "USER",
+      "isAsset": true,
+      "balance": {
+        "currency": "USD",
+        "amount": 697978.56
+      },
+      "id": 12538600,
+      "userClassification": "PERSONAL",
+      "includeInNetWorth": true,
+      "providerId": "16442",
+      "providerName": "Dag Site Multilevel",
+      "isManual": false,
+      "accountType": "ROTH_IRA",
+      "accountCategory": "Retirement",
+      "displayedName": "AMY GLADYS",
+      "createdDate": "2025-08-16T22:06:39Z",
+      "cash": {
+        "currency": "USD",
+        "amount": 237.72
+      },
+      "lastUpdated": "2025-08-19T12:05:57Z",
+      "marginBalance": {
+        "currency": "USD",
+        "amount": 0
+      },
+      "dataset": [
+        {
+          "name": "BASIC_AGG_DATA",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "updateEligibility": "ALLOW_UPDATE",
+          "lastUpdated": "2025-08-19T12:05:58Z",
+          "lastUpdateAttempt": "2025-08-19T12:05:58Z",
+          "nextUpdateScheduled": "2025-08-21T02:40:57Z"
+        }
+      ]
+    },
+    {
+      "CONTAINER": "investment",
+      "providerAccountId": 11357668,
+      "accountName": "Retirement Savings Plan - 4258",
+      "accountStatus": "ACTIVE",
+      "accountNumber": "xxxx4258",
+      "aggregationSource": "USER",
+      "isAsset": true,
+      "balance": {
+        "currency": "USD",
+        "amount": 94582.58
+      },
+      "id": 12538549,
+      "userClassification": "PERSONAL",
+      "includeInNetWorth": true,
+      "providerId": "16442",
+      "providerName": "Dag Site Multilevel",
+      "isManual": false,
+      "accountType": "EMPLOYEE_SAVINGS_PLAN",
+      "accountCategory": "Retirement",
+      "displayedName": "KAY MARSHA",
+      "createdDate": "2025-08-16T22:06:39Z",
+      "lastUpdated": "2025-08-19T12:05:57Z",
+      "lastEmployeeContributionAmount": {
+        "currency": "USD",
+        "amount": 206.85
+      },
+      "lastEmployeeContributionDate": "2019-08-01",
+      "dataset": [
+        {
+          "name": "BASIC_AGG_DATA",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "updateEligibility": "ALLOW_UPDATE",
+          "lastUpdated": "2025-08-19T12:05:58Z",
+          "lastUpdateAttempt": "2025-08-19T12:05:58Z",
+          "nextUpdateScheduled": "2025-08-21T02:40:57Z"
+        }
+      ]
+    },
+    {
+      "CONTAINER": "investment",
+      "providerAccountId": 11357668,
+      "accountName": "CMA -Joint Brokerage - 3547",
+      "accountStatus": "ACTIVE",
+      "accountNumber": "xxxx3547",
+      "aggregationSource": "USER",
+      "isAsset": true,
+      "balance": {
+        "currency": "USD",
+        "amount": 330101.25
+      },
+      "id": 12538548,
+      "userClassification": "PERSONAL",
+      "includeInNetWorth": true,
+      "providerId": "16442",
+      "providerName": "Dag Site Multilevel",
+      "isManual": false,
+      "accountType": "CASH_MANAGEMENT_ACCOUNT",
+      "accountCategory": "General Investing",
+      "displayedName": "MARY",
+      "createdDate": "2025-08-16T22:06:39Z",
+      "cash": {
+        "currency": "USD",
+        "amount": 108.22
+      },
+      "lastUpdated": "2025-08-19T12:05:57Z",
+      "marginBalance": {
+        "currency": "USD",
+        "amount": 0
+      },
+      "dataset": [
+        {
+          "name": "BASIC_AGG_DATA",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "updateEligibility": "ALLOW_UPDATE",
+          "lastUpdated": "2025-08-19T12:05:58Z",
+          "lastUpdateAttempt": "2025-08-19T12:05:58Z",
+          "nextUpdateScheduled": "2025-08-21T02:40:57Z"
+        }
+      ]
+    },
+    {
+      "CONTAINER": "creditCard",
+      "providerAccountId": 11357668,
+      "accountName": "CashRewardOld - 0784",
+      "accountStatus": "ACTIVE",
+      "accountNumber": "xxxx0784",
+      "aggregationSource": "USER",
+      "isAsset": false,
+      "balance": {
+        "currency": "USD",
+        "amount": 9793.63
+      },
+      "id": 12538547,
+      "userClassification": "PERSONAL",
+      "includeInNetWorth": true,
+      "providerId": "16442",
+      "providerName": "Dag Site Multilevel",
+      "isManual": false,
+      "accountType": "CREDIT",
+      "displayedName": "SADIE",
+      "createdDate": "2025-08-16T22:06:39Z",
+      "dueDate": "2019-10-15",
+      "cashApr": 1.35,
+      "availableCash": {
+        "currency": "USD",
+        "amount": 608.62
+      },
+      "availableCredit": {
+        "currency": "USD",
+        "amount": -6052.63
+      },
+      "lastPaymentAmount": {
+        "currency": "USD",
+        "amount": 641.68
+      },
+      "lastPaymentDate": "2019-10-15",
+      "lastUpdated": "2025-08-20T18:08:13Z",
+      "runningBalance": {
+        "currency": "USD",
+        "amount": 9793.63
+      },
+      "totalCashLimit": {
+        "currency": "USD",
+        "amount": 4870.33
+      },
+      "totalCreditLine": {
+        "currency": "USD",
+        "amount": 3741
+      },
+      "amountDue": {
+        "currency": "USD",
+        "amount": 1939.53
+      },
+      "minimumAmountDue": {
+        "currency": "USD",
+        "amount": 10
+      },
+      "dataset": [
+        {
+          "name": "BASIC_AGG_DATA",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "updateEligibility": "ALLOW_UPDATE",
+          "lastUpdated": "2025-08-20T18:08:14Z",
+          "lastUpdateAttempt": "2025-08-20T18:08:14Z",
+          "nextUpdateScheduled": "2025-08-21T08:04:17Z"
+        }
+      ]
+    },
+    {
+      "CONTAINER": "bank",
+      "providerAccountId": 11357668,
+      "accountName": "My CD - 8878",
+      "accountStatus": "ACTIVE",
+      "accountNumber": "xxxx8878",
+      "aggregationSource": "USER",
+      "isAsset": true,
+      "balance": {
+        "currency": "USD",
+        "amount": 49778.07
+      },
+      "id": 12538546,
+      "userClassification": "PERSONAL",
+      "includeInNetWorth": true,
+      "providerId": "16442",
+      "providerName": "Dag Site Multilevel",
+      "isManual": false,
+      "currentBalance": {
+        "currency": "USD",
+        "amount": 49778.07
+      },
+      "accountType": "CD",
+      "displayedName": "LORETTA",
+      "createdDate": "2025-08-16T22:06:39Z",
+      "annualPercentageYield": 2.46,
+      "interestRate": 2.46,
+      "lastUpdated": "2025-08-20T18:08:12Z",
+      "maturityDate": "2022-09-10",
+      "dataset": [
+        {
+          "name": "BASIC_AGG_DATA",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "updateEligibility": "ALLOW_UPDATE",
+          "lastUpdated": "2025-08-20T18:08:13Z",
+          "lastUpdateAttempt": "2025-08-20T18:08:13Z",
+          "nextUpdateScheduled": "2025-08-21T09:57:40Z"
+        }
+      ]
+    },
+    {
+      "CONTAINER": "bank",
+      "providerAccountId": 11357668,
+      "accountName": "Joint Savings - 7159",
+      "accountStatus": "ACTIVE",
+      "accountNumber": "xxxx7159",
+      "aggregationSource": "USER",
+      "isAsset": true,
+      "balance": {
+        "currency": "USD",
+        "amount": 186277.45
+      },
+      "id": 12538545,
+      "userClassification": "PERSONAL",
+      "includeInNetWorth": true,
+      "providerId": "16442",
+      "providerName": "Dag Site Multilevel",
+      "isManual": false,
+      "availableBalance": {
+        "currency": "USD",
+        "amount": 186277.45
+      },
+      "currentBalance": {
+        "currency": "USD",
+        "amount": 186277.45
+      },
+      "accountType": "SAVINGS",
+      "displayedName": "LYDIA",
+      "createdDate": "2025-08-16T22:06:39Z",
+      "annualPercentageYield": 0.14,
+      "classification": "PERSONAL",
+      "interestRate": 0.14,
+      "lastUpdated": "2025-08-20T18:08:12Z",
+      "dataset": [
+        {
+          "name": "BASIC_AGG_DATA",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "updateEligibility": "ALLOW_UPDATE",
+          "lastUpdated": "2025-08-20T18:08:13Z",
+          "lastUpdateAttempt": "2025-08-20T18:08:13Z",
+          "nextUpdateScheduled": "2025-08-21T09:57:40Z"
+        }
+      ]
+    },
+    {
+      "CONTAINER": "bank",
+      "providerAccountId": 11357668,
+      "accountName": "Joint Checking - 9060",
+      "accountStatus": "ACTIVE",
+      "accountNumber": "xxxx9060",
+      "aggregationSource": "USER",
+      "isAsset": true,
+      "balance": {
+        "currency": "USD",
+        "amount": 193038.06
+      },
+      "id": 12538544,
+      "userClassification": "PERSONAL",
+      "includeInNetWorth": true,
+      "providerId": "16442",
+      "providerName": "Dag Site Multilevel",
+      "isManual": false,
+      "availableBalance": {
+        "currency": "USD",
+        "amount": 193038.06
+      },
+      "currentBalance": {
+        "currency": "USD",
+        "amount": 193038.06
+      },
+      "accountType": "CHECKING",
+      "displayedName": "LYDIA",
+      "createdDate": "2025-08-16T22:06:39Z",
+      "classification": "PERSONAL",
+      "lastUpdated": "2025-08-20T18:08:12Z",
+      "dataset": [
+        {
+          "name": "BASIC_AGG_DATA",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "updateEligibility": "ALLOW_UPDATE",
+          "lastUpdated": "2025-08-20T18:08:13Z",
+          "lastUpdateAttempt": "2025-08-20T18:08:13Z",
+          "nextUpdateScheduled": "2025-08-21T09:57:40Z"
+        }
+      ]
+    },
+    {
+      "CONTAINER": "bank",
+      "providerAccountId": 11354102,
+      "accountName": "My CD - 8878",
+      "accountStatus": "ACTIVE",
+      "accountNumber": "xxxx8878",
+      "aggregationSource": "USER",
+      "isAsset": true,
+      "balance": {
+        "currency": "USD",
+        "amount": 49778.07
+      },
+      "id": 12527657,
+      "userClassification": "PERSONAL",
+      "includeInNetWorth": true,
+      "providerId": "18769",
+      "providerName": "Dag Site Captcha",
+      "isManual": false,
+      "currentBalance": {
+        "currency": "USD",
+        "amount": 49778.07
+      },
+      "accountType": "CD",
+      "displayedName": "LORETTA",
+      "createdDate": "2025-05-21T14:25:04Z",
+      "lastUpdated": "2025-05-21T14:25:21Z",
+      "dataset": [
+        {
+          "name": "BASIC_AGG_DATA",
+          "additionalStatus": "ADDL_AUTHENTICATION_REQUIRED",
+          "updateEligibility": "ALLOW_UPDATE_WITH_CREDENTIALS",
+          "lastUpdated": "2025-05-21T14:25:21Z",
+          "lastUpdateAttempt": "2025-05-21T14:25:21Z"
+        }
+      ]
+    },
+    {
+      "CONTAINER": "bank",
+      "providerAccountId": 11354102,
+      "accountName": "Joint Savings - 7159",
+      "accountStatus": "ACTIVE",
+      "accountNumber": "xxxx7159",
+      "aggregationSource": "USER",
+      "isAsset": true,
+      "balance": {
+        "currency": "USD",
+        "amount": 186277.45
+      },
+      "id": 12527656,
+      "userClassification": "PERSONAL",
+      "includeInNetWorth": true,
+      "providerId": "18769",
+      "providerName": "Dag Site Captcha",
+      "isManual": false,
+      "availableBalance": {
+        "currency": "USD",
+        "amount": 186277.45
+      },
+      "currentBalance": {
+        "currency": "USD",
+        "amount": 186277.45
+      },
+      "accountType": "SAVINGS",
+      "displayedName": "LYDIA",
+      "createdDate": "2025-05-21T14:25:04Z",
+      "classification": "PERSONAL",
+      "lastUpdated": "2025-05-21T14:25:21Z",
+      "dataset": [
+        {
+          "name": "BASIC_AGG_DATA",
+          "additionalStatus": "ADDL_AUTHENTICATION_REQUIRED",
+          "updateEligibility": "ALLOW_UPDATE_WITH_CREDENTIALS",
+          "lastUpdated": "2025-05-21T14:25:21Z",
+          "lastUpdateAttempt": "2025-05-21T14:25:21Z"
+        }
+      ]
+    },
+    {
+      "CONTAINER": "bank",
+      "providerAccountId": 11354102,
+      "accountName": "Joint Checking - 9060",
+      "accountStatus": "ACTIVE",
+      "accountNumber": "xxxx9060",
+      "aggregationSource": "USER",
+      "isAsset": true,
+      "balance": {
+        "currency": "USD",
+        "amount": 193038.06
+      },
+      "id": 12527655,
+      "userClassification": "PERSONAL",
+      "includeInNetWorth": true,
+      "providerId": "18769",
+      "providerName": "Dag Site Captcha",
+      "isManual": false,
+      "availableBalance": {
+        "currency": "USD",
+        "amount": 193038.06
+      },
+      "currentBalance": {
+        "currency": "USD",
+        "amount": 193038.06
+      },
+      "accountType": "CHECKING",
+      "displayedName": "LYDIA",
+      "createdDate": "2025-05-21T14:25:04Z",
+      "classification": "PERSONAL",
+      "lastUpdated": "2025-05-21T14:25:21Z",
+      "dataset": [
+        {
+          "name": "BASIC_AGG_DATA",
+          "additionalStatus": "ADDL_AUTHENTICATION_REQUIRED",
+          "updateEligibility": "ALLOW_UPDATE_WITH_CREDENTIALS",
+          "lastUpdated": "2025-05-21T14:25:21Z",
+          "lastUpdateAttempt": "2025-05-21T14:25:21Z"
+        }
+      ]
+    },
+    {
+      "CONTAINER": "creditCard",
+      "providerAccountId": 11353910,
+      "accountName": "CREDIT CARD",
+      "accountStatus": "ACTIVE",
+      "accountNumber": "xxxx8614",
+      "aggregationSource": "USER",
+      "isAsset": false,
+      "balance": {
+        "currency": "USD",
+        "amount": 1636.44
+      },
+      "id": 12527189,
+      "userClassification": "PERSONAL",
+      "includeInNetWorth": true,
+      "providerId": "16441",
+      "providerName": "Dag Site",
+      "isManual": false,
+      "accountType": "OTHER",
+      "createdDate": "2025-05-17T13:45:46Z",
+      "apr": 29.99,
+      "cashApr": 29.99,
+      "availableCash": {
+        "currency": "USD",
+        "amount": 600
+      },
+      "availableCredit": {
+        "currency": "USD",
+        "amount": 1363
+      },
+      "lastPaymentAmount": {
+        "currency": "USD",
+        "amount": 250
+      },
+      "lastPaymentDate": "2014-01-17",
+      "lastUpdated": "2025-08-20T17:07:34Z",
+      "runningBalance": {
+        "currency": "USD",
+        "amount": 1636.44
+      },
+      "totalCashLimit": {
+        "currency": "USD",
+        "amount": 600
+      },
+      "totalCreditLine": {
+        "currency": "USD",
+        "amount": 3000
+      },
+      "dataset": [
+        {
+          "name": "BASIC_AGG_DATA",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "updateEligibility": "ALLOW_UPDATE",
+          "lastUpdated": "2025-08-20T17:07:35Z",
+          "lastUpdateAttempt": "2025-08-20T17:07:35Z",
+          "nextUpdateScheduled": "2025-08-22T04:47:30Z"
+        }
+      ]
+    },
+    {
+      "CONTAINER": "bank",
+      "providerAccountId": 11353910,
+      "accountName": "TESTDATA1",
+      "accountStatus": "ACTIVE",
+      "accountNumber": "xxxx3xxx",
+      "aggregationSource": "USER",
+      "isAsset": true,
+      "balance": {
+        "currency": "USD",
+        "amount": 9044.78
+      },
+      "id": 12527188,
+      "userClassification": "PERSONAL",
+      "includeInNetWorth": true,
+      "providerId": "16441",
+      "providerName": "Dag Site",
+      "isManual": false,
+      "availableBalance": {
+        "currency": "USD",
+        "amount": 65454.78
+      },
+      "currentBalance": {
+        "currency": "USD",
+        "amount": 9044.78
+      },
+      "accountType": "SAVINGS",
+      "displayedName": "accountHolder",
+      "createdDate": "2025-05-17T13:45:46Z",
+      "lastUpdated": "2025-08-20T17:07:29Z",
+      "dataset": [
+        {
+          "name": "BASIC_AGG_DATA",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "updateEligibility": "ALLOW_UPDATE",
+          "lastUpdated": "2025-08-20T17:07:29Z",
+          "lastUpdateAttempt": "2025-08-20T17:07:29Z",
+          "nextUpdateScheduled": "2025-08-21T08:39:14Z"
+        }
+      ]
+    },
+    {
+      "CONTAINER": "bank",
+      "providerAccountId": 11353910,
+      "accountName": "TESTDATA",
+      "accountStatus": "ACTIVE",
+      "accountNumber": "xxxx3xxx",
+      "aggregationSource": "USER",
+      "isAsset": true,
+      "balance": {
+        "currency": "USD",
+        "amount": 44.78
+      },
+      "id": 12527187,
+      "userClassification": "PERSONAL",
+      "includeInNetWorth": true,
+      "providerId": "16441",
+      "providerName": "Dag Site",
+      "isManual": false,
+      "availableBalance": {
+        "currency": "USD",
+        "amount": 54.78
+      },
+      "currentBalance": {
+        "currency": "USD",
+        "amount": 44.78
+      },
+      "accountType": "CHECKING",
+      "displayedName": "accountHolder",
+      "createdDate": "2025-05-17T13:45:46Z",
+      "classification": "PERSONAL",
+      "lastUpdated": "2025-08-20T17:07:29Z",
+      "dataset": [
+        {
+          "name": "BASIC_AGG_DATA",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "updateEligibility": "ALLOW_UPDATE",
+          "lastUpdated": "2025-08-20T17:07:29Z",
+          "lastUpdateAttempt": "2025-08-20T17:07:29Z",
+          "nextUpdateScheduled": "2025-08-21T08:39:14Z"
+        }
+      ]
+    }
+  ]
+}
