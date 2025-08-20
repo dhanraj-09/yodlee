@@ -1,0 +1,304 @@
+{
+    "transaction": [
+        {
+            "CONTAINER": "bank",
+            "id": 112422143,
+            "amount": {
+                "amount": 1105.84,
+                "currency": "USD"
+            },
+            "categoryType": "UNCATEGORIZE",
+            "categoryId": 1,
+            "category": "Uncategorized",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000017,
+            "createdDate": "2025-08-20T18:08:10Z",
+            "lastUpdated": "2025-08-20T18:08:10Z",
+            "description": {
+                "original": "8 TO XX XXXXX0001 LOMBARD IL XXXXXXXXXXX XXXXXX8501"
+            },
+            "isManual": false,
+            "sourceType": "AGGREGATED",
+            "date": "2025-08-19",
+            "transactionDate": "2025-08-19",
+            "postDate": "2025-08-19",
+            "status": "POSTED",
+            "accountId": 12538544,
+            "runningBalance": {
+                "amount": 1105.84,
+                "currency": "USD"
+            },
+            "checkNumber": "998"
+        },
+        {
+            "CONTAINER": "bank",
+            "id": 112422142,
+            "amount": {
+                "amount": 21.99,
+                "currency": "USD"
+            },
+            "categoryType": "UNCATEGORIZE",
+            "categoryId": 1,
+            "category": "Uncategorized",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000017,
+            "createdDate": "2025-08-20T18:08:10Z",
+            "lastUpdated": "2025-08-20T18:08:10Z",
+            "description": {
+                "original": "BEEHIVE STORAGE LC BOUNTIFUL UT"
+            },
+            "isManual": false,
+            "sourceType": "AGGREGATED",
+            "date": "2025-08-19",
+            "transactionDate": "2025-08-19",
+            "postDate": "2025-08-19",
+            "status": "POSTED",
+            "accountId": 12538544,
+            "runningBalance": {
+                "amount": 1083.85,
+                "currency": "USD"
+            },
+            "checkNumber": "998"
+        },
+        {
+            "CONTAINER": "bank",
+            "id": 112417504,
+            "amount": {
+                "amount": 1105.84,
+                "currency": "USD"
+            },
+            "categoryType": "UNCATEGORIZE",
+            "categoryId": 1,
+            "category": "Uncategorized",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000017,
+            "createdDate": "2025-08-20T01:03:14Z",
+            "lastUpdated": "2025-08-20T01:03:14Z",
+            "description": {
+                "original": "8 TO XX XXXXX0001 LOMBARD IL XXXXXXXXXXX XXXXXX8501"
+            },
+            "isManual": false,
+            "sourceType": "AGGREGATED",
+            "date": "2025-08-18",
+            "transactionDate": "2025-08-18",
+            "postDate": "2025-08-18",
+            "status": "POSTED",
+            "accountId": 12538544,
+            "runningBalance": {
+                "amount": 1105.84,
+                "currency": "USD"
+            },
+            "checkNumber": "998"
+        },
+        {
+            "CONTAINER": "bank",
+            "id": 112417503,
+            "amount": {
+                "amount": 21.99,
+                "currency": "USD"
+            },
+            "categoryType": "UNCATEGORIZE",
+            "categoryId": 1,
+            "category": "Uncategorized",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000017,
+            "createdDate": "2025-08-20T01:03:14Z",
+            "lastUpdated": "2025-08-20T01:03:14Z",
+            "description": {
+                "original": "BEEHIVE STORAGE LC BOUNTIFUL UT"
+            },
+            "isManual": false,
+            "sourceType": "AGGREGATED",
+            "date": "2025-08-18",
+            "transactionDate": "2025-08-18",
+            "postDate": "2025-08-18",
+            "status": "POSTED",
+            "accountId": 12538544,
+            "runningBalance": {
+                "amount": 1083.85,
+                "currency": "USD"
+            },
+            "checkNumber": "998"
+        },
+        {
+            "CONTAINER": "bank",
+            "id": 112408583,
+            "amount": {
+                "amount": 1105.84,
+                "currency": "USD"
+            },
+            "categoryType": "UNCATEGORIZE",
+            "categoryId": 1,
+            "category": "Uncategorized",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000017,
+            "createdDate": "2025-08-18T23:53:07Z",
+            "lastUpdated": "2025-08-18T23:53:07Z",
+            "description": {
+                "original": "8 TO XX XXXXX0001 LOMBARD IL XXXXXXXXXXX XXXXXX8501"
+            },
+            "isManual": false,
+            "sourceType": "AGGREGATED",
+            "date": "2025-08-17",
+            "transactionDate": "2025-08-17",
+            "postDate": "2025-08-17",
+            "status": "POSTED",
+            "accountId": 12538544,
+            "runningBalance": {
+                "amount": 1105.84,
+                "currency": "USD"
+            },
+            "checkNumber": "998"
+        },
+        {
+            "CONTAINER": "bank",
+            "id": 112408582,
+            "amount": {
+                "amount": 21.99,
+                "currency": "USD"
+            },
+            "categoryType": "UNCATEGORIZE",
+            "categoryId": 1,
+            "category": "Uncategorized",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000017,
+            "createdDate": "2025-08-18T23:53:07Z",
+            "lastUpdated": "2025-08-18T23:53:07Z",
+            "description": {
+                "original": "BEEHIVE STORAGE LC BOUNTIFUL UT"
+            },
+            "isManual": false,
+            "sourceType": "AGGREGATED",
+            "date": "2025-08-17",
+            "transactionDate": "2025-08-17",
+            "postDate": "2025-08-17",
+            "status": "POSTED",
+            "accountId": 12538544,
+            "runningBalance": {
+                "amount": 1083.85,
+                "currency": "USD"
+            },
+            "checkNumber": "998"
+        },
+        {
+            "CONTAINER": "bank",
+            "id": 112407873,
+            "amount": {
+                "amount": 1105.84,
+                "currency": "USD"
+            },
+            "categoryType": "UNCATEGORIZE",
+            "categoryId": 1,
+            "category": "Uncategorized",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000017,
+            "createdDate": "2025-08-17T18:06:03Z",
+            "lastUpdated": "2025-08-17T18:06:03Z",
+            "description": {
+                "original": "8 TO XX XXXXX0001 LOMBARD IL XXXXXXXXXXX XXXXXX8501"
+            },
+            "isManual": false,
+            "sourceType": "AGGREGATED",
+            "date": "2025-08-16",
+            "transactionDate": "2025-08-16",
+            "postDate": "2025-08-16",
+            "status": "POSTED",
+            "accountId": 12538544,
+            "runningBalance": {
+                "amount": 1105.84,
+                "currency": "USD"
+            },
+            "checkNumber": "998"
+        },
+        {
+            "CONTAINER": "bank",
+            "id": 112407872,
+            "amount": {
+                "amount": 21.99,
+                "currency": "USD"
+            },
+            "categoryType": "UNCATEGORIZE",
+            "categoryId": 1,
+            "category": "Uncategorized",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000017,
+            "createdDate": "2025-08-17T18:06:03Z",
+            "lastUpdated": "2025-08-17T18:06:03Z",
+            "description": {
+                "original": "BEEHIVE STORAGE LC BOUNTIFUL UT"
+            },
+            "isManual": false,
+            "sourceType": "AGGREGATED",
+            "date": "2025-08-16",
+            "transactionDate": "2025-08-16",
+            "postDate": "2025-08-16",
+            "status": "POSTED",
+            "accountId": 12538544,
+            "runningBalance": {
+                "amount": 1083.85,
+                "currency": "USD"
+            },
+            "checkNumber": "998"
+        },
+        {
+            "CONTAINER": "bank",
+            "id": 112406611,
+            "amount": {
+                "amount": 1105.84,
+                "currency": "USD"
+            },
+            "categoryType": "UNCATEGORIZE",
+            "categoryId": 1,
+            "category": "Uncategorized",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000017,
+            "createdDate": "2025-08-16T22:06:40Z",
+            "lastUpdated": "2025-08-16T22:06:40Z",
+            "description": {
+                "original": "8 TO XX XXXXX0001 LOMBARD IL XXXXXXXXXXX XXXXXX8501"
+            },
+            "isManual": false,
+            "sourceType": "AGGREGATED",
+            "date": "2025-08-15",
+            "transactionDate": "2025-08-15",
+            "postDate": "2025-08-15",
+            "status": "POSTED",
+            "accountId": 12538544,
+            "runningBalance": {
+                "amount": 1105.84,
+                "currency": "USD"
+            },
+            "checkNumber": "998"
+        },
+        {
+            "CONTAINER": "bank",
+            "id": 112406610,
+            "amount": {
+                "amount": 21.99,
+                "currency": "USD"
+            },
+            "categoryType": "UNCATEGORIZE",
+            "categoryId": 1,
+            "category": "Uncategorized",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000017,
+            "createdDate": "2025-08-16T22:06:40Z",
+            "lastUpdated": "2025-08-16T22:06:40Z",
+            "description": {
+                "original": "BEEHIVE STORAGE LC BOUNTIFUL UT"
+            },
+            "isManual": false,
+            "sourceType": "AGGREGATED",
+            "date": "2025-08-15",
+            "transactionDate": "2025-08-15",
+            "postDate": "2025-08-15",
+            "status": "POSTED",
+            "accountId": 12538544,
+            "runningBalance": {
+                "amount": 1083.85,
+                "currency": "USD"
+            },
+            "checkNumber": "998"
+        }
+    ]
+}

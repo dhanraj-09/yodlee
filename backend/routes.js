@@ -1,5 +1,6 @@
 const express=require('express');
 const axios= require('axios');
+const {response} = require("express");
 const router=express.Router();
 
 const client_id=process.env.YODLEE_CLIENT_ID;
@@ -25,7 +26,7 @@ router.post('/GetAccessToken', async (req,res)=>{
                 "loginName":login_name,
             }})
         accessToken = response1.data.token.accessToken;
-        console.log(accessToken)
+        console.log(accessToken, "Access Token")
         res.json({ accessToken });
     }
     catch(error)
@@ -57,7 +58,7 @@ router.post('/getUserToken',async (req,res)=>{
             }
         })
         userToken=response2.data.token.accessToken;
-        console.log(userToken);
+        console.log(userToken, "UserToken");
         res.json({userToken})
     }
     catch (error)
@@ -95,8 +96,6 @@ router.get('/getProviders', async (req, res) => {
     }
 });
 
-
-
     router.get('/accounts', async (req,res)=>{
     try
     {
@@ -104,7 +103,7 @@ router.get('/getProviders', async (req, res) => {
 
         const AuthHeader = req.headers["authorization"];
         console.log(AuthHeader," Auth header");
-        const AccessToken = "5VyB5SPFCwJEwiCJWeACeXxi2qIe";
+        const AccessToken = "69il96FBUz7Pjz4LtsYzFj2eMO6u";
 
         const response = await axios.get(URL,{
             headers : {
@@ -126,7 +125,41 @@ router.get('/getProviders', async (req, res) => {
         }
         res.status(500).json({ error: 'Failed to get access accounts' });
     }
-})
+});
+
+    router.get("/transactions",async (req,res)=>{
+        try
+        {
+            const AccessToken="69il96FBUz7Pjz4LtsYzFj2eMO6u";
+            const response = await axios.get("https://sandbox.api.yodlee.com/ysl/transactions?accountIdhttps://sandbox.api.yodlee.com/ysl/transactions",
+                {
+                 headers:{
+                     'Api-Version':'1.1',
+                     'Authorization':`Bearer ${AccessToken}`
+                 },
+                 params:
+                     {
+                         accountId: "12538544",
+                         fromDate: "2010-01-01"
+                     }
+                })
+            res.json(response.data)
+        }
+        catch (err)
+        {
+            if (err.response) {
+                console.error("Error Status:", err.response.status);
+                console.error("Error Headers:", err.response.headers);
+                console.error("Error Data:", err.response.data);
+            } else {
+                console.error("Generic Error:", err.message);
+            }
+            res.status(500).json({ error: 'Failed to get access transactions' });
+        }
+
+    })
+
+
 
 
 
