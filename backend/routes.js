@@ -25,9 +25,8 @@ router.post('/GetAccessToken', async (req,res)=>{
                 "Content-Type":"application/x-www-form-urlencoded",
                 "loginName":login_name,
             }})
-        accessToken = response1.data.token.accessToken;
-        console.log(accessToken, "Access Token")
-        res.json({ accessToken });
+        console.log(response1.data)
+        res.json(response1.data);
     }
     catch(error)
     {
@@ -78,7 +77,7 @@ router.get('/getProviders', async (req, res) => {
         const URL = `https://sandbox.api.yodlee.com/ysl/providers`;
         const response = await axios.get(URL,{
             headers:{
-                'Authorization': `Bearer ${accessToken}`,
+                'Authorization': req.headers.authorization,
                 'Api-Version':'1.1'
             }
         });
@@ -101,14 +100,10 @@ router.get('/getProviders', async (req, res) => {
     {
         const URL="https://sandbox.api.yodlee.com/ysl/accounts";
 
-        const AuthHeader = req.headers["authorization"];
-        console.log(AuthHeader," Auth header");
-        const AccessToken = "69il96FBUz7Pjz4LtsYzFj2eMO6u";
-
         const response = await axios.get(URL,{
             headers : {
                 'Api-Version':'1.1',
-                'Authorization':`Bearer ${AccessToken}`
+                'Authorization':`Bearer ${req.headers.authorization.toString().split(' ')[1]}`
             }
         });
 
@@ -130,12 +125,11 @@ router.get('/getProviders', async (req, res) => {
     router.get("/transactions",async (req,res)=>{
         try
         {
-            const AccessToken="69il96FBUz7Pjz4LtsYzFj2eMO6u";
             const response = await axios.get("https://sandbox.api.yodlee.com/ysl/transactions?accountIdhttps://sandbox.api.yodlee.com/ysl/transactions",
                 {
                  headers:{
                      'Api-Version':'1.1',
-                     'Authorization':`Bearer ${AccessToken}`
+                     'Authorization':`Bearer ${req.headers.authorization.toString().split(' ')[1]}`
                  },
                  params:
                      {
